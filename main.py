@@ -1,12 +1,10 @@
 def main():
-    ##################################################
-    # Complete your code here
-    ##################################################
+    number = int(input('Enter an integer number'))
+    if number % 2 == 0:
+        result = 0
+    else:
+        result = 1
     
-
-    ########################################
-    # Do not delete the return statement
-    ########################################
     if result:
         print(f'The value {number} is an odd number')
     else:
